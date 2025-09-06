@@ -3,76 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Score</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
 
-        <title>Basketball Score</title>
-        <link rel="stylesheet" href="styles.css">
-
-        
-
-
-    </head>
-    <body>
-        <div class="container">
-
-
-            <div id="scoreboard">
-
-                <div > 
-                    
-                    <h3>HOME</h3> 
-
-                    <div id="boardTitle">
-                        
-
-                        <div id="score ">
-                            <h2 id="homeScore"></h2>
-                            
-                        </div>
-                    </div>
-                
-                </div>
-
-                <div id="addScore">
-                
-                 <button id="btn-IncrementOne" class="btn" onclick="addOne()">+1</button>
-                 <button id="btn-Increment"  class="btn" onclick="addTwo()">+2</button>
-                 <button id="btn-Increment"  class="btn" onclick="addThree()">+3</button>
-                 <button id="reset-btn"  onclick="resetHome()"> Reset</button>
-
-                </div>
-              
-               
+        <!-- HOME SCOREBOARD -->
+        <div class="scoreboard">
+            <h3>HOME</h3>
+            <div id="boardTitle">
+                <h2 id="homeScore">0</h2>
             </div>
-
-
-            <div id="scoreboard">
-
-                <div>
-                         <h3>GUEST</h3>
-                   <div id="boardTitle"> 
-
-                    
-                        <div id="score" >
-                           <h2 id="guestScore"></h2>
-                            
-                            
-                        </div>
-                   </div> 
-                   
-                <div id="addScore">
-                 <button id="btn-IncrementOne" class="btn" onclick="addoneGuest()">+1</button>
-                 <button id="btn-Increment"  class="btn" onclick="addtwoGuest()">+2</button>
-                 <button id="btn-Increment"  class="btn" onclick="addthreeGuest()">+3</button>
-                 <button id="reset-btn" onclick="resetGuest()"> Reset</button>
-
-
-                </div>
-
-                </div>
-               
-                
+            <div class="addScore">
+                <button class="btn" onclick="addOne()">+1</button>
+                <button class="btn" onclick="addTwo()">+2</button>
+                <button class="btn" onclick="addThree()">+3</button>
+                <button class="btn reset-btn" onclick="resetHome()">Reset</button>
             </div>
         </div>
-        <script src="index.js"></script>
-    </body>
+
+        <!-- GUEST SCOREBOARD -->
+        <div class="scoreboard">
+            <h3>GUEST</h3>
+            <div id="boardTitle">
+                <h2 id="guestScore">0</h2>
+            </div>
+            <div class="addScore">
+                <button class="btn" onclick="addOneGuest()">+1</button>
+                <button class="btn" onclick="addTwoGuest()">+2</button>
+                <button class="btn" onclick="addThreeGuest()">+3</button>
+                <button class="btn reset-btn" onclick="resetGuest()">Reset</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
 </html>
