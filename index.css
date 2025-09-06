@@ -16,7 +16,8 @@ body {
 
 h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px bold;
+    font-size: 40px ;
+     font-weight: bold;
 }
 
 .container {
