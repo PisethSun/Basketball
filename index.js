@@ -6,7 +6,7 @@ document.getElementById("guestScore").textContent=guestScores
 
 let home = document.getElementById("homeScore")
 let guest = document.getElementById("guestScore")
-let resetBtn = document.getElementById("reset-btn")
+
 
 // home one function
 function addOne(){
