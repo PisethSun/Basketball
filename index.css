@@ -1,0 +1,119 @@
+@font-face{
+    font-family: 'CursedTimer';
+     src: url('CursedTimerUlil-Aznm.ttf') format('truetype');
+
+    
+   }
+body {
+    margin: 0;
+    background-color: #001d3d;
+    color: #EEEEEE;
+    text-align: center;
+    
+    
+
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px bold;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #001d3d;
+    margin-top: 200px;
+  
+
+}
+
+#scoreboard{
+   
+    width: 400px;
+    height: 400px;
+    font-weight: 400;
+    font-size: 40px;
+
+
+}
+
+#boardTitle{
+    width: 155px;
+    height: 120px;
+    border: #080001 solid;
+    background-color: #080001;
+    display: block;
+    margin: auto;
+     font-family: 'CursedTimer';
+     color: #EEEEEE;
+     
+    
+}
+
+#score{
+    width: 117px;
+    height: 120px;
+    color: #F94F6D;
+    text-align: center;
+    font-size: 90px;
+    margin-top: 20px;
+}
+
+#homeScore{
+    width: 117px;
+    height: 120px;
+    color: #F94F6D;
+    text-align: center;
+    font-size: 90px;
+    margin: 20px auto;
+    
+}
+
+#guestScore{
+    width: 117px;
+    height: 120px;
+    color: #F94F6D;
+    text-align: center;
+    font-size: 90px;
+    margin: 20px auto auto 20px;
+
+
+}
+
+
+
+#addScore{
+   
+    width: 155px;
+    height: 45px;
+    
+    display: block;
+    margin: 15px 120px 15px;
+    
+}
+
+.btn{
+     font-family: 'CursedTimer';
+     color: #EEEEEE;
+    width: 45px;
+    height: 35px;
+    margin-bottom: 15px;
+    background-color: #001d3d;
+    border: 2px solid #EEEEEE;
+    border-radius: 2px;
+}
+
+#reset-btn{
+    width: 55px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #080001;
+    color: #EEEEEE;
+   
+
+}
+
+
+
